@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+nav a{
+	
+	text-decoration: none;
+	color: black;
+	padding-left: 7em;
+	padding-top: 3em;
+}
+
+.navigationbar{
+	display:flex;
+	align-items: center;
+	margin-top: 2em;
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+	align-content: space-between;
+	justify-content: space-around;
+	
+}
+
+.navbutton{
+	background-color: lightblue;
+	padding:0.5em;
+	margin-left:4em;
+	margin-right: 4em;
+	border-color: black;
+
+}
+
+nav a:hover{
+	color:gray;
+}
+
+nav a:focus{
+	color: cornflowerblue;
+}
+
+#login{
+
+	float: right;
+}
+
+
+footer{
+	margin-left: 1em;
+}
+
+
+
